@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: gathering   #配置文件名
+      profile: dev  #开发环境
+      label: master #分支
+      uri: http://127.0.0.1:12000
